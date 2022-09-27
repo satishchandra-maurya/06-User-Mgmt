@@ -1,0 +1,9 @@
+Hi, {FULLNAME} </br>
+</br>
+Please Find your  Password Below - </br>
+</br>
+Password : {PASSWORD} </br>
+</br>
+ Thanks </br>
+ Admin Team </br>
+ 

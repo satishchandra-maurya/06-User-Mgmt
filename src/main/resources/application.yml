@@ -1,0 +1,44 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: mysql
+    url: jdbc:mysql://localhost:3306/myapp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: mauryagpk@gmail.com
+    password: bntotkedamqfkute
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+
+      
+user-api:
+  messages:
+    saveSucc: User saved Successfully And One Email is sent for Activate the Account !
+    saveFail: User Not Saved !
+    updateSucc: User Update Successfully !
+    updateFail: User Not Updated !
+    deleteSucc: User Deleted Successfully !
+    deleteFail: User Not Deleted!
+    changeSucc: User Status changed Successfully !
+    changeFail: User Status Not changed !
+    ACTIVATE_ACCOUNT_SUCC: Your Account is activated Successfully ! Please Login With Your Credentials
+    ACTIVATE_ACCOUNT_FAIL: Your Account is Not activated 
+      
+      
+      
+      
+      
